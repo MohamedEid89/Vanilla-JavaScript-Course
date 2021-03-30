@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 body{
     padding: 0px;
     margin: 0px;
@@ -129,43 +129,10 @@ ul li:hover:nth-child(3) a:after{
 }
 
 
-
-ul li:hover:nth-child(1) a{
-    background: #3b5998;
-}
-
-ul li:hover:nth-child(1) a:before{
-    background: #365492;
-}
-ul li:hover:nth-child(1) a:after{
-    background: #4a69ad;
-}
-
-
-
-
-ul li:hover:nth-child(1) a{
-    background: #3b5998;
-}
-
-ul li:hover:nth-child(1) a:before{
-    background: #365492;
-}
-ul li:hover:nth-child(1) a:after{
-    background: #4a69ad;
-}
-
-
-
-
-ul li:hover:nth-child(1) a{
-    background: #3b5998;
-}
-
-ul li:hover:nth-child(1) a:before{
-    background: #365492;
-}
-ul li:hover:nth-child(1) a:after{
-    background: #4a69ad;
-}
-
+ h1{
+     font-family:'Fredoka One';
+     text-align: center;
+     color: orange;
+     text-shadow:  2px 2px 5px  rgba(0, 0, 0, 5);
+     font-size: 70px;
+     padding-top: 55px;
