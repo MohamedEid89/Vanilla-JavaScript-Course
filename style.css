@@ -129,6 +129,31 @@ ul li:hover:nth-child(3) a:after{
 }
 
 
+ul li:hover:nth-child(4) a{
+    background: #3b5998;
+}
+
+ul li:hover:nth-child(4) a:before{
+    background: #365492;
+}
+ul li:hover:nth-child(4) a:after{
+    background: #4a69ad;
+}
+
+
+ul li:hover:nth-child(5) a{
+    background: #3b5998;
+}
+
+ul li:hover:nth-child(5) a:before{
+    background: #365492;
+}
+ul li:hover:nth-child(5) a:after{
+    background: #4a69ad;
+}
+
+
+
  h1{
      font-family:'Fredoka One';
      text-align: center;
@@ -136,3 +161,12 @@ ul li:hover:nth-child(3) a:after{
      text-shadow:  2px 2px 5px  rgba(0, 0, 0, 5);
      font-size: 70px;
      padding-top: 55px;
+ }
+
+ h2{
+    font-family:'Fredoka One';
+    text-align: center;
+    color:#262626;
+    font-size: 15px;
+    padding-top: 450px;
+ }
