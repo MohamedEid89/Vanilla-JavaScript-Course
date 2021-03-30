@@ -1,7 +1,7 @@
 /*------value = 0 --------*/
 let count = 0;
 
-/*------click btn--------*/
+/*------select--------*/
 const value = document.querySelector("#value");
 const btnclick = document.querySelectorAll(".btn");
 

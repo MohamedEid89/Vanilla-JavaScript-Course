@@ -36,7 +36,7 @@ const reviews = [
         "Text 4 Text 4 Text 4 Text 4 Text 4 Text 4 Text 4 Text 4 Text 4 Text 4 Text 4 Text 4 Text 4 Text 4 Text 4 Text 4 Text 4 Text 4 Text 4 Text 4 Text 4 Text 4 Text 4 Text 4 Text 4 Text 4 ",
     },
   ];
-  // select items
+  // select 
   const img = document.getElementById("Pimg");
   const author = document.getElementById("Pname");
   const job = document.getElementById("Pjob");
@@ -46,10 +46,9 @@ const reviews = [
   const nextBtn = document.querySelector(".btn-next");
   const randomBtn = document.querySelector(".btn-surprise");
   
-  // Starting item //
+  // Starting  //
   let currentItem = 0;
   
-  // load initial item
   window.addEventListener("DOMContentLoaded", function () {
     const item = reviews[currentItem];
     img.src = item.img;
